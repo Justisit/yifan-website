@@ -1,0 +1,139 @@
+﻿
+
+
+
+
+/*  show_content 样式*/
+.show_content{
+    width:1260px;
+    height:320px;
+    float:left;
+    padding-left:40px;
+}
+.show_content .dt{
+    width: 90px;
+    text-align: right;
+    float: left;
+    padding-right: 20px;
+    color: #333;
+    font-size: 12px;
+    display:none;
+}
+.show_content .dt>i{
+    height: 56px;
+    line-height: 56px;
+    display: inline-block;
+    color: #1620db;
+    padding-right: 3px;
+}
+.show_content .dd{
+    width: 1160px;
+    height:auto;
+    margin-top:20px;
+    margin-left:12px;
+    float: left;
+    position: relative;
+    border:1px solid #dcdcdc;
+    border-radius:4px;
+    box-shadow: 2px 2px 9px 0px rgba(0,0,0,0.1);
+}
+#show_content2 .dd{
+    height:360px;
+}
+.search_img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    max-height:100%;
+}
+#show_images{
+    margin:auto;
+}
+input[type = "file"]{
+    width :240px;
+    margin-top:17px;
+    overflow :hidden;
+    background:#f2f2f2;
+    border-radius:0px;
+}
+.show_content p{
+    font:16px/32px 微软雅黑,'微软雅黑',Arial,'Microsoft YaHei','宋体'sans-serif;
+    color: #666;
+    padding-right: 3px;
+}
+.show_content p.span{
+    font:12px/12px 微软雅黑,'微软雅黑',Arial,'Microsoft YaHei','宋体'sans-serif;
+    color: #cdcdcd;
+    padding-right: 3px;
+}
+#view-hot2 .show_content {
+    height: 360px;
+}
+#view-hot3 .show_content {
+    height: 100%;
+    margin-bottom: 26px;
+}
+#view-hot3 .home-brick-bok {
+    height: 100%;
+    margin-bottom: 66px;
+}
+.content-container img{
+    width:100%;
+    height:auto;
+}
+
+
+/*----------------------------*/
+/*    heart  upvote           */
+/*----------------------------*/
+.like{
+    top:16px;
+    left:260px;
+    display:block;
+    position:absolute;
+}
+h3 {
+    width:100%;
+    float:left;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.heart{
+    width :16px;
+    height:24px;
+    margin-left:20px;
+    float:left;
+    position:relative;
+    cursor:pointer;
+}
+.heart:before{
+    content:"";
+    width:12px;
+    height:20px;
+    left:6px;
+    border-radius:6px 6px 0px 0px;
+    background:#e0e0e0;
+    position:absolute;
+    -webkit-transform:rotate(-45deg);
+       -moz-transform:rotate(-45deg);
+            transform:rotate(-45deg);
+}
+.heart:after{
+    content:"";
+    width:12px;
+    height:20px;
+    left:12px;
+    border-radius:6px 6px 0px 0px;
+    background:#e0e0e0;
+    position:absolute;
+    -webkit-transform:rotate(45deg);
+       -moz-transform:rotate(45deg);
+            transform:rotate(45deg);
+}
+.liked .heart {
+    cursor:default;
+}
+.liked .heart:before, .liked .heart:after{
+    background:#ff006e;
+}

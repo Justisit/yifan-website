@@ -1,0 +1,526 @@
+* {margin: 0; padding: 0; outline: 0;}
+
+
+body {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	color: #e5e5e5;
+	font-size: 12px;
+	background:#bfbfbf;
+	
+}
+
+
+h1, h2 {
+	font-family: "微软雅黑",Arial,微软雅黑,'Open Sans', sans-serif;
+	font-weight: 300;
+    color:#fff;
+	margin:0px;
+}
+
+
+h1 {
+	font-size: 36px;
+	letter-spacing: -1px;
+	line-height: 100%;
+	font-weight: bold;
+}
+
+
+h2 {
+	font-size: 24px;
+}
+
+
+p {
+	margin: 0 0 15px 0;
+}
+
+a {
+	color: #3e3e3e;
+}
+
+.clearfix {zoom: 1;}/* IE<8*/
+.clearfix:before, .clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.wrap {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 1260px;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+
+
+.section {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 1260px;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	height: 660px;
+}
+
+
+.inner {
+	width: 1260px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 50px;
+	padding:10px 0;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.inner_stop {
+	width:100%;
+	margin: 0 auto;
+	position: relative;
+	min-height: 50px;
+	padding:10px 0;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+.subMenu_inner{
+	width: 1060px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 50px;
+	padding:0 0;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.inner:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+}
+
+
+.subMenu {
+	height: 50px;
+	z-index: 1000;
+	width: 100%;
+	background: #0977bc;
+}
+
+.subMenu .inner {
+	padding:0;
+	font-weight: 400;
+	margin: 0 auto;
+}
+
+
+.subNavBtn {
+	display: block;
+	height: 35px;
+	width: 10%;
+	float: left;
+	margin: 0px 0px 0 0;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 15px 2% 0 2%;
+	text-align: center;
+	
+	color: #fff;
+}
+.subMenu a:hover {
+	background: #1783c7;
+}
+
+.active {
+	background: #25aae1;
+}
+.end {
+	margin: 0;
+}
+
+
+
+
+/* SECTIONS */
+.sTop {
+	min-height: 130px;
+	background:#003667;
+	color:#3d3d3d;
+	padding: 0px 0px 100px 0px;
+	height: 550px;
+	
+}
+
+.s1 {
+    height:760px;
+	background:#18222b;
+	background: #303030;
+	background: #186765;
+	background: #5adbe1;
+	background: #6f6e9a;
+	background: #fa6668;
+	color:#fff;
+	background-image:url()
+	
+}
+
+
+.s2 {
+    height:760px;
+	background: #d6bcd9;
+	background: #01c3e9;
+	background: #ac998b;
+	background: #cf7960;
+	background: #d1e4ea;
+	background: #fba430;
+    color:#fff;
+	background-image:url()
+}
+
+
+.s3 {
+	background: #a5caf7;
+	background: #d9edf7;
+	background: #e25462;
+	background: #f10207;
+	background: #618a00;
+	background: #25aae1;
+    color:#fff;
+	background-image:url()
+}
+
+
+.s4 {
+	background: #f27592;
+	background: #fcf8e3;
+	background: #5aa3c4;
+	background: #94b4b1;
+	background: #e25462;
+	background: #59debc;
+    color:#fff;
+	background-image:url()
+}
+
+
+
+.s5 {
+	background: #f5b58f;
+	background: #f2dede;
+	background: #313131;
+	background: #00d2c5;
+	background: #b6d7e6;
+	background: #07d689;
+	color:#fff;
+	background-image:url()
+}
+
+.s6 {
+	background: #87f5c0;
+	background: #dff0d8;
+	background: #161616;
+	background: #1b1b1b;
+	background: #fe8696;
+	background: #462222;
+	background-image:url()
+}
+
+/*=============================*/
+/*======       颜色      ======*/
+/*============================*/
+/*#a21a1c  #d54d4f  #ce6900  #fe9c31  #cea300  #fdd631  #44743a  #77a76d  #9a5986  #cd8cb6  #cf5166  */
+
+
+
+
+/*=============================*/
+/*======      自定义     ======*/
+/*============================*/
+
+
+.s4 .inner a{
+	border: 1px #06F solid;
+	margin:-10px 0px 0px 460px;
+	padding: 10px 30px 10px 30px;
+	color: #06F;
+    float:left;
+    display:block;
+}
+
+.s4 .inner a:hover{
+	border: 2px #06F solid;
+	padding: 10px 27px 10px 27px;
+	color: #06F;
+	font-weight: bold;
+}
+
+	
+/*--------------------------*/
+/*------   foot 渐  变------*/
+/*-------------------------*/
+#foot{ 
+	height:150px; 
+	background-color:#252525; 
+	border-top:1px solid #ebebeb; 
+	margin-top:10px; 
+	min-width:1000px;
+	background-image:-webkit-linear-gradient(top,#6FF,#3FF);
+	/*-webkit-linear-gradient( [<point> || <angle>,]? <stop>, <stop> [, <stop>]* )*//*new gradient for Webkit最新发布书写语法*/
+	/*-webkit-linear-gradient(top,#ccc,#000);*//*new gradient for Webkit*/
+	
+	/*-webkit-gradient(<type>, <point> [, <radius>]?, <point> [, <radius>]? [, <stop>]*) *//*Old gradient for webkit老式语法书写规则*/
+	/*background: -webkit-gradient(linear,center top,center bottom,from(#ccc), to(#000));*//*Old gradient for webkit*/
+	
+	/*filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#1471da, endColorstr=#1C85FB);/*IE<9>*/
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#1471da, endColorstr=#1C85FB)";/*IE8+*/
+    /*IE依靠滤镜实现渐变。startColorstr表示起点的颜色，endColorstr 表示终点颜色。GradientType 表示渐变类型，0 为缺省值，表示垂直渐变，1 表示水平渐变。*/
+	
+	/*background-image:-webkit-gradient(linear,0% 0%,100% 0%,from(#2A8BBE),color-stop(0.33,#AAD010),color-stop(0.33,#FF7F00),to(#FE280E));*/
+	
+	/*复杂的渐变*/
+	/*background: -webkit-linear-gradient(left, #ace, #f96 5%, #ace, #f96 95%, #ace);
+	background: -webkit-gradient(linear, left top, right top, from(#ace), color-stop(0.05, #f96), color-stop(0.5, #ace), color-stop(0.95, #f96), to(#ace));*/
+	
+	/*径向渐变*/
+	/*backgroud:-webkit-gradient(radial,50 50,50,50 50,0,from(black),color-stop(0.5,red),to(blue));*/
+}
+
+.ft_tp{ 
+	width:100%;  
+	margin-top:20px;
+	color:#ededed; 
+	font-family:"宋体"; 
+	line-height:35px;
+}
+
+.ft_tp a{
+	color:#ededed;
+}
+
+.ft_tp span{ 
+	font-size:12px; 
+	line-height:24px; 
+	color:#3e3e3e; 
+    margin:6px;
+}
+
+.ft_tp span a:hover{ 
+	font-size:12px; 
+	line-height:24px; 
+	color:#3e3e3e; 
+    margin:6px;
+}
+
+.ft_tp_1{ 
+	width:100%; 
+	height:24px;
+	color:#959595; 
+	font-size:12px; 
+	font-family:"宋体"; 
+	line-height:24px;
+}
+
+
+/*============================*/
+/*=====  top back style  =====*/
+/*============================*/
+
+
+#backtotop{
+	height:50px;
+	position:fixed;
+	bottom:55px;
+	right:-60px;
+	z-index:999;
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition:all 1s ease;
+}
+
+#backtotop.showme{
+	right:12px;
+	-moz-transform:scale(1) rotate(-360deg) translate(0px);
+	-webkit-transform:scale(1) rotate(-360deg) translate(0px);
+	-o-transform:scale(1) rotate(-360deg) translate(0px);
+	transform:scale(1) rotate(-360deg) translate(0px);
+}
+#backtotop .bttbg{
+	width:50px;
+	height:50px;
+	background:url(../images/top_button.png) no-repeat 0 0;
+}
+#backtotop .bttbg:hover{
+	background-position:left bottom;
+}
+
+#back{
+	width:100%;
+	height:4px;
+	background: #CC6A6A;
+}
+
+
+/*-----------------------------------*/
+/*------section s3 :dialog.css ------*/
+/*-----------------------------------*/
+
+
+
+
+
+.dialog,
+.dialog__overlay {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.dialog {
+	position: fixed;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.dialog__overlay {
+	position: absolute;
+	background: rgba(55, 58, 71, 0.9);
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	-webkit-backface-visibility: hidden;
+}
+
+.dialog--open .dialog__overlay {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.dialog__content {
+	max-width: 1060px;
+	min-width: 1000px;
+	height:500px;
+	background: #fff;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+	opacity: 0;
+}
+
+.dialog--open .dialog__content {
+	pointer-events: auto;
+}
+
+/* Content */
+.dialog h2 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 2em;
+	padding: 0 0 0.2em;
+	margin: 0;
+}
+
+/*============ ============*/
+/*======  demo  css  ======*/
+/*============ ============*/
+
+
+
+button {
+	padding: 1em 2em;
+	margin-top:0px;
+	outline: none;
+	font-weight: 600;
+	border: none;
+	color: #fff;
+	background: #c94e50;
+}
+
+.content {
+	max-width: 1060px;
+	padding: 0 1em;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.button-wrap {
+	padding: 2.5em 0 0;
+	font-size: 1.25em;
+}
+
+button.trigger {
+	background: #c94e50;
+	color: #fff;
+	border: none;
+}
+
+
+/*     */
+.title_h {
+	padding: 2.75em 0 3em;
+	letter-spacing: -1px;
+}
+
+.title_h h1 {
+	font-size: 3.65em;
+	line-height: 1;
+	color:#F66;
+	margin: 0;
+}
+
+.title_h h1 span {
+	display: block;
+	width: 15em;
+	font-size: 21%;
+	padding: 1em 0;
+	margin: 0 auto;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: relative;
+}
+
+.title_h h1 span::before,
+.title_h h1 span::after {
+	content: '';
+	position: absolute;
+	width: 25%;
+	height: 2px;
+	top: 50%;
+	margin-top: -1px;
+	background: #c94e50;
+}
+
+.title_h h1 span::before {
+	right: 100%;
+}
+
+.title_h h1 span::after {
+	left: 100%;
+}
+
+
+
+.clear:after {
+clear: both;
+content: " ";
+display: block;
+height: 0;
+}

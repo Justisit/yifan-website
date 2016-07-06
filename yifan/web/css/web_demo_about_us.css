@@ -1,0 +1,354 @@
+* {margin: 0; padding: 0; outline: 0;}
+
+
+body {
+	font:14px/24px "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei","微软雅黑 Light", "微软雅黑", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", Verdana, sans-serif;
+	color: #3d3d3d;
+    min-width:1000px;
+	background:#bfbfbf;
+    background:#f2f2f2;
+}
+
+
+
+
+
+p {
+	margin: 0 0 15px 0;
+}
+
+a {
+	color: #3e3e3e;
+}
+
+.clear {
+	clear: both;
+}
+.wrap {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 1260px;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+
+
+.section {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 1260px;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	height: auto;
+}
+
+
+.inner {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 50px;
+	padding:10px 0;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.subMenu_inner{
+	width: 1060px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 50px;
+	padding:0 0;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.inner:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+}
+
+
+.subMenu {
+	height: 75px;
+	z-index: 1000;
+	width: 100%;
+	background: #0977bc;
+}
+
+.subMenu .inner {
+	padding:0;
+	font-weight: 400;
+	margin: 0 auto;
+}
+
+
+.subNavBtn {
+	display: block;
+	height: 60px;
+	width: 10%;
+	float: left;
+	margin: 0px 0px 0 0;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 15px 2% 0 2%;
+	text-align: center;
+	
+	color: #fff;
+}
+.subMenu a:hover {
+	background: #1783c7;
+}
+
+.active {
+	background: #0977bc;
+}
+.end {
+	margin: 0;
+}
+
+
+
+
+/* SECTIONS */
+.sTop {
+	min-height: 130px;
+	background:rgba(255,255,255,0.9);
+	color:#3d3d3d;
+	padding: 0px 0px 100px 0px;
+	height: 550px;
+	
+}
+
+.s1 {
+	background: #f2f2f2;
+	color:#fff;
+	background-image:url();
+}
+
+.section.s1 .inner iframe{
+    width:100%;
+    background: #f2f2f2;
+	color:#fff;
+	background-image:url();
+
+} 
+
+.section.s1 .inner{
+    height:auto;
+}
+
+
+
+.page_all {min-width:1200px;max-width:100%;}
+.page_all a{color:#555;text-decoration:none;outline:none}
+.page_all a{blr:expression(this.onFocus=this.blur());}
+.page_all ul{list-style:none}
+.page_all h4,.page_all h3,.page_all h2,.page_all h1{font-weight:normal}
+.page_all img{border:none}
+/*head picture*/
+.focus{margin:15px auto 15px}
+/* 左边菜单栏 */
+
+.sidNav{width:160px;margin:10px 10px; padding:15px 20px;background:#fff;border-radius:5px;display:block;float:left;}
+.sidNav a{font-size:16px;}
+.sidNav ul{width:120px;}
+.sidNav ul li{float:left;width:120px;height:30px;line-height:30px;padding:0 0 0 36px;}
+.sidNav ul li.on{background:#25aae1;margin:5px 0;}
+.sidNav ul li.on a{color:#fff;font-size:20px;}
+.sidNav ul li.on a:hover{color:#555;font-size:20px;}
+.sidNav ul li a:hover{color:#3fa9f5;font-size:20px;}
+
+
+/* 右边内容栏 */
+.aboutCnt{width:960px;margin:10px 10px;background:#fff;border-radius:5px;display:block;float:left;overflow:hidden;}
+.aboutCnt h1{font-size:26px;line-height:40px;padding:15px 25px 15px;background:#fff;}
+#aboutCntBox{padding:20px 25px 40px;background:#fff;border-top:solid 1px #1783c7;}
+
+
+/*-------------------------------*/
+/*--------- Team_page -----------*/ 
+/*-------------------------------*/
+.large-header {
+	width: 1200px;
+    height:290px;
+	background: #333;
+	overflow: hidden;
+	position: relative;
+    border-radius:0px;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+.large-header {
+	background-image: url('../images/school_pic00001.png');
+	background-position: center bottom;
+}
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+.main-title {
+	font-family: 'Clicker Script', cursive;
+	font-weight: normal;
+	font-size: 8em;
+	padding-left: 10px;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+.main-title::before {
+	content: '';
+	width: 20vw;
+	height: 20vw;
+	min-width: 3.5em;
+	min-height: 3.5em;
+	background: url(../img/deco.svg) no-repeat center center;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	z-index: -1;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+
+
+/*-------------------------------*/
+/*------ Information_page -------*/ 
+/*-------------------------------*/
+
+
+
+/*-------------------------------*/
+/*--------- JoinUs_page ---------*/ 
+/*-------------------------------*/
+
+
+/*-------------------------------*/
+/*------- CutactUs_page ---------*/ 
+/*-------------------------------*/
+
+
+/*-------------------------------*/
+/*--------- Case_page -----------*/ 
+/*-------------------------------*/
+
+
+
+
+/*--------------------------*/
+/*------   footer     ------*/
+/*--------------------------*/
+#foot{ 
+	height:150px;
+    width:100%; 
+	background-color:#F3F3F3; 
+	border-top:1px solid #ebebeb; 
+	margin-top:1px; 
+	min-width:1000px;
+    position:absolute;
+     z-index: 10;
+	background-image:-webkit-linear-gradient(top,#fff,#f7f7f7);
+	/*-webkit-linear-gradient( [<point> || <angle>,]? <stop>, <stop> [, <stop>]* )*//*new gradient for Webkit最新发布书写语法*/
+	/*-webkit-linear-gradient(top,#ccc,#000);*//*new gradient for Webkit*/
+	
+	/*-webkit-gradient(<type>, <point> [, <radius>]?, <point> [, <radius>]? [, <stop>]*) *//*Old gradient for webkit老式语法书写规则*/
+	/*background: -webkit-gradient(linear,center top,center bottom,from(#ccc), to(#000));*//*Old gradient for webkit*/
+	
+	/*filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#1471da, endColorstr=#1C85FB);/*IE<9>*/
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#1471da, endColorstr=#1C85FB)";/*IE8+*/
+    /*IE依靠滤镜实现渐变。startColorstr表示起点的颜色，endColorstr 表示终点颜色。GradientType 表示渐变类型，0 为缺省值，表示垂直渐变，1 表示水平渐变。*/
+	
+	/*background-image:-webkit-gradient(linear,0% 0%,100% 0%,from(#2A8BBE),color-stop(0.33,#AAD010),color-stop(0.33,#FF7F00),to(#FE280E));*/
+	
+	/*复杂的渐变*/
+	/*background: -webkit-linear-gradient(left, #ace, #f96 5%, #ace, #f96 95%, #ace);
+	background: -webkit-gradient(linear, left top, right top, from(#ace), color-stop(0.05, #f96), color-stop(0.5, #ace), color-stop(0.95, #f96), to(#ace));*/
+	
+	/*径向渐变*/
+	/*backgroud:-webkit-gradient(radial,50 50,50,50 50,0,from(black),color-stop(0.5,red),to(blue));*/
+}
+
+.ft_tp{ 
+	width:100%;  
+	margin-top:20px;
+	color:#ededed; 
+	font-family:"宋体"; 
+	line-height:35px;
+}
+.ft_tp a{
+	color:#ededed;
+}
+
+.ft_tp span{ 
+	font-size:12px; 
+	line-height:24px; 
+	color:#959595; margin:6px;
+}
+
+.ft_tp_1{ 
+	width:100%; 
+	height:24px;
+	color:#959595; 
+	font-size:12px; 
+	font-family:"宋体"; 
+	line-height:24px;
+}
+
+
+/*============================*/
+/*=====  top back style  =====*/
+/*============================*/
+
+
+#backtotop{
+	height:50px;
+	position:fixed;
+	bottom:55px;
+	right:-60px;
+	z-index:999;
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition:all 1s ease;
+}
+
+#backtotop.showme{
+	right:12px;
+	-moz-transform:scale(1) rotate(-360deg) translate(0px);
+	-webkit-transform:scale(1) rotate(-360deg) translate(0px);
+	-o-transform:scale(1) rotate(-360deg) translate(0px);
+	transform:scale(1) rotate(-360deg) translate(0px);
+}
+#backtotop .bttbg{
+	width:50px;
+	height:50px;
+	background:url(../images/top_button.png) no-repeat 0 0;
+}
+#backtotop .bttbg:hover{
+	background-position:left bottom;
+}
+
+#back{
+	width:100%;
+	height:4px;
+	background: #CC6A6A;
+}
+

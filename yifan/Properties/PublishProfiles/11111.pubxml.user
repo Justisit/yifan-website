@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\textWeb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="admin_home.aspx">
+      <publishTime>05/05/2016 22:10:15</publishTime>
+    </File>
+    <File Include="admin_index.aspx">
+      <publishTime>05/16/2016 15:28:05</publishTime>
+    </File>
+    <File Include="admin_signin_from.aspx">
+      <publishTime>05/01/2016 12:38:42</publishTime>
+    </File>
+    <File Include="allGoods-page.aspx">
+      <publishTime>05/19/2016 20:56:18</publishTime>
+    </File>
+    <File Include="all_goods_view.aspx">
+      <publishTime>05/20/2016 19:30:10</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>05/08/2016 19:57:09</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>05/08/2016 19:55:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>05/08/2016 19:55:55</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>05/08/2016 19:56:07</publishTime>
+    </File>
+    <File Include="bin/yifan.dll">
+      <publishTime>05/24/2016 00:34:54</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Net.Http.Formatting.resources.dll">
+      <publishTime>05/08/2016 19:55:41</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.resources.dll">
+      <publishTime>05/08/2016 19:56:01</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.WebHost.resources.dll">
+      <publishTime>05/08/2016 19:56:13</publishTime>
+    </File>
+    <File Include="BMap/BMap.htm">
+      <publishTime>03/21/2016 23:56:46</publishTime>
+    </File>
+    <File Include="BMap/GetTheWay.pdf">
+      <publishTime>03/21/2016 23:54:44</publishTime>
+    </File>
+    <File Include="BMap/source/bmap.css">
+      <publishTime>10/20/2015 13:35:08</publishTime>
+    </File>
+    <File Include="BMap/source/copyright_logo.png">
+      <publishTime>10/20/2015 11:25:18</publishTime>
+    </File>
+    <File Include="BMap/source/c_map.css">
+      <publishTime>10/20/2015 12:19:48</publishTime>
+    </File>
+    <File Include="BMap/source/iw_tail.png">
+      <publishTime>10/26/2015 20:24:33</publishTime>
+    </File>
+    <File Include="BMap/source/jquery-1.10.2.min.js">
+      <publishTime>10/20/2015 11:25:18</publishTime>
+    </File>
+    <File Include="BMap/source/mapctrls.png">
+      <publishTime>10/20/2015 11:25:18</publishTime>
+    </File>
+    <File Include="BMap/source/marker_red_sprite.png">
+      <publishTime>10/20/2015 11:25:18</publishTime>
+    </File>
+    <File Include="BMap/source/SearchInfoWindow_min.js">
+      <publishTime>10/20/2015 11:25:18</publishTime>
+    </File>
+    <File Include="css/adminsigninformreset.css">
+      <publishTime>03/17/2016 22:57:34</publishTime>
+    </File>
+    <File Include="css/adminsigninformstyle.css">
+      <publishTime>05/01/2016 13:18:57</publishTime>
+    </File>
+    <File Include="css/admin_home.css">
+      <publishTime>05/06/2016 18:00:13</publishTime>
+    </File>
+    <File Include="css/admin_home_page.css">
+      <publishTime>05/05/2016 22:12:44</publishTime>
+    </File>
+    <File Include="css/admin_search.css">
+      <publishTime>05/11/2016 13:49:29</publishTime>
+    </File>
+    <File Include="css/allGoods_view.css">
+      <publishTime>05/20/2016 19:30:27</publishTime>
+    </File>
+    <File Include="css/demo.css">
+      <publishTime>05/02/2016 21:07:55</publishTime>
+    </File>
+    <File Include="css/index_goods.css">
+      <publishTime>05/19/2016 15:03:29</publishTime>
+    </File>
+    <File Include="css/menu.css">
+      <publishTime>03/08/2016 13:51:06</publishTime>
+    </File>
+    <File Include="css/mycontainer_css.css">
+      <publishTime>05/01/2016 23:34:36</publishTime>
+    </File>
+    <File Include="css/nivo-slider.css">
+      <publishTime>10/25/2015 01:14:44</publishTime>
+    </File>
+    <File Include="css/singleGoods.css">
+      <publishTime>05/20/2016 21:52:05</publishTime>
+    </File>
+    <File Include="font/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff">
+      <publishTime>10/13/2015 21:06:52</publishTime>
+    </File>
+    <File Include="font/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff">
+      <publishTime>10/13/2015 21:06:45</publishTime>
+    </File>
+    <File Include="font/Glide.js-master.zip">
+      <publishTime>10/14/2015 14:56:34</publishTime>
+    </File>
+    <File Include="font/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff">
+      <publishTime>10/13/2015 21:06:59</publishTime>
+    </File>
+    <File Include="font/nivo-slider.rar">
+      <publishTime>10/14/2015 14:47:36</publishTime>
+    </File>
+    <File Include="Handler.ashx">
+      <publishTime>05/08/2016 20:50:48</publishTime>
+    </File>
+    <File Include="Handler1.ashx">
+      <publishTime>05/08/2016 00:01:24</publishTime>
+    </File>
+    <File Include="images/001.png">
+      <publishTime>10/13/2015 01:20:14</publishTime>
+    </File>
+    <File Include="images/1x1.png">
+      <publishTime>10/13/2015 22:41:22</publishTime>
+    </File>
+    <File Include="images/ad1.jpg">
+      <publishTime>10/25/2015 00:31:09</publishTime>
+    </File>
+    <File Include="images/ad2.jpg">
+      <publishTime>10/24/2015 23:56:09</publishTime>
+    </File>
+    <File Include="images/ad22.jpg">
+      <publishTime>10/25/2015 00:00:37</publishTime>
+    </File>
+    <File Include="images/ad3.jpg">
+      <publishTime>10/24/2015 23:57:10</publishTime>
+    </File>
+    <File Include="images/ad31.jpg">
+      <publishTime>10/25/2015 00:02:32</publishTime>
+    </File>
+    <File Include="images/ad4.jpg">
+      <publishTime>10/24/2015 23:59:17</publishTime>
+    </File>
+    <File Include="images/androidlogo.png">
+      <publishTime>10/13/2015 14:55:25</publishTime>
+    </File>
+    <File Include="images/appdown_bg.jpg">
+      <publishTime>10/19/2015 17:39:47</publishTime>
+    </File>
+    <File Include="images/appdown_bg.psd">
+      <publishTime>10/19/2015 19:05:15</publishTime>
+    </File>
+    <File Include="images/appdown_bg001.png">
+      <publishTime>10/19/2015 19:00:13</publishTime>
+    </File>
+    <File Include="images/appdown_bg002.png">
+      <publishTime>10/19/2015 19:00:45</publishTime>
+    </File>
+    <File Include="images/applelogo.png">
+      <publishTime>10/13/2015 14:55:00</publishTime>
+    </File>
+    <File Include="images/arrows.png">
+      <publishTime>10/25/2015 01:13:00</publishTime>
+    </File>
+    <File Include="images/ban_next.png">
+      <publishTime>03/09/2016 00:42:10</publishTime>
+    </File>
+    <File Include="images/ban_pre.png">
+      <publishTime>03/09/2016 00:42:10</publishTime>
+    </File>
+    <File Include="images/bullets.png">
+      <publishTime>10/24/2015 21:08:50</publishTime>
+    </File>
+    <File Include="images/bullets0.png">
+      <publishTime>10/24/2015 20:04:05</publishTime>
+    </File>
+    <File Include="images/close_icon.png">
+      <publishTime>04/06/2016 18:31:57</publishTime>
+    </File>
+    <File Include="images/downloadbtn001.png">
+      <publishTime>10/19/2015 19:04:24</publishTime>
+    </File>
+    <File Include="images/downloadbtn001.psd">
+      <publishTime>10/19/2015 19:05:08</publishTime>
+    </File>
+    <File Include="images/dreaming.jpg">
+      <publishTime>03/15/2016 16:21:18</publishTime>
+    </File>
+    <File Include="images/fordream.png">
+      <publishTime>03/15/2016 15:27:51</publishTime>
+    </File>
+    <File Include="images/hover_left.png">
+      <publishTime>10/24/2015 21:09:13</publishTime>
+    </File>
+    <File Include="images/hover_right.png">
+      <publishTime>10/24/2015 21:09:20</publishTime>
+    </File>
+    <File Include="images/img_2.jpg">
+      <publishTime>10/13/2015 20:03:41</publishTime>
+    </File>
+    <File Include="images/loading.gif">
+      <publishTime>10/13/2015 20:03:22</publishTime>
+    </File>
+    <File Include="images/logo00.png">
+      <publishTime>03/15/2016 16:36:20</publishTime>
+    </File>
+    <File Include="images/logo00.psd">
+      <publishTime>03/15/2016 15:50:23</publishTime>
+    </File>
+    <File Include="images/mainNav_bg.png">
+      <publishTime>04/04/2016 22:10:53</publishTime>
+    </File>
+    <File Include="images/onepiece/ACE.png">
+      <publishTime>10/24/2015 01:01:15</publishTime>
+    </File>
+    <File Include="images/onepiece/ACE.psd">
+      <publishTime>10/24/2015 01:01:05</publishTime>
+    </File>
+    <File Include="images/onepiece/ACE002.png">
+      <publishTime>10/24/2015 01:04:16</publishTime>
+    </File>
+    <File Include="images/onepiece/ACE002.psd">
+      <publishTime>10/24/2015 01:04:09</publishTime>
+    </File>
+    <File Include="images/onepiece/Going Merry.png">
+      <publishTime>10/24/2015 00:37:46</publishTime>
+    </File>
+    <File Include="images/onepiece/Going Merry.psd">
+      <publishTime>10/24/2015 00:37:33</publishTime>
+    </File>
+    <File Include="images/onepiece/inthesunshine.png">
+      <publishTime>10/24/2015 01:08:53</publishTime>
+    </File>
+    <File Include="images/onepiece/inthesunshine.psd">
+      <publishTime>10/24/2015 01:08:42</publishTime>
+    </File>
+    <File Include="images/onepiece/memory forGoing Merry.png">
+      <publishTime>10/24/2015 01:00:19</publishTime>
+    </File>
+    <File Include="images/onepiece/memory forGoing Merry.psd">
+      <publishTime>10/24/2015 01:00:10</publishTime>
+    </File>
+    <File Include="images/onepiece/onepiece_colorful.png">
+      <publishTime>10/23/2015 23:59:35</publishTime>
+    </File>
+    <File Include="images/onepiece/onepiece_colorful.psd">
+      <publishTime>10/23/2015 23:59:50</publishTime>
+    </File>
+    <File Include="images/onepiece/one_piece001.png">
+      <publishTime>10/23/2015 23:21:42</publishTime>
+    </File>
+    <File Include="images/onepiece/partners01.png">
+      <publishTime>10/24/2015 01:06:08</publishTime>
+    </File>
+    <File Include="images/onepiece/partners01.psd">
+      <publishTime>10/24/2015 01:05:59</publishTime>
+    </File>
+    <File Include="images/onepiece/partners02.png">
+      <publishTime>10/24/2015 01:07:23</publishTime>
+    </File>
+    <File Include="images/onepiece/partners02.psd">
+      <publishTime>10/24/2015 01:07:16</publishTime>
+    </File>
+    <File Include="images/onepiece/team001.png">
+      <publishTime>10/24/2015 00:12:28</publishTime>
+    </File>
+    <File Include="images/onepiece/team001.psd">
+      <publishTime>10/24/2015 00:12:18</publishTime>
+    </File>
+    <File Include="images/onepiece/TEAM002.png">
+      <publishTime>10/24/2015 01:03:10</publishTime>
+    </File>
+    <File Include="images/onepiece/TEAM002.psd">
+      <publishTime>10/24/2015 01:03:02</publishTime>
+    </File>
+    <File Include="images/onepiece/team01.png">
+      <publishTime>10/24/2015 00:39:03</publishTime>
+    </File>
+    <File Include="images/onepiece/team01.psd">
+      <publishTime>10/24/2015 00:38:53</publishTime>
+    </File>
+    <File Include="images/onepiece/together forever.png">
+      <publishTime>10/24/2015 00:48:15</publishTime>
+    </File>
+    <File Include="images/onepiece/together forever.psd">
+      <publishTime>10/24/2015 00:47:59</publishTime>
+    </File>
+    <File Include="images/onepiece/We are partners.png">
+      <publishTime>10/23/2015 23:32:38</publishTime>
+    </File>
+    <File Include="images/onepiece/We are partners.psd">
+      <publishTime>10/23/2015 23:32:51</publishTime>
+    </File>
+    <File Include="images/onepiece/We are team.psd">
+      <publishTime>10/23/2015 23:52:05</publishTime>
+    </File>
+    <File Include="images/onepiece/We are team001.png">
+      <publishTime>10/23/2015 23:51:43</publishTime>
+    </File>
+    <File Include="images/onepiece/weareateam.png">
+      <publishTime>10/24/2015 00:10:45</publishTime>
+    </File>
+    <File Include="images/onepiece/weareateam.psd">
+      <publishTime>10/24/2015 00:10:33</publishTime>
+    </File>
+    <File Include="images/onepiece/weareone.psd">
+      <publishTime>10/24/2015 00:15:06</publishTime>
+    </File>
+    <File Include="images/onepiece/weareone001.png">
+      <publishTime>10/24/2015 00:15:18</publishTime>
+    </File>
+    <File Include="images/png_mid.png">
+      <publishTime>03/15/2016 19:28:43</publishTime>
+    </File>
+    <File Include="images/Porsche/porsche001.jpg">
+      <publishTime>10/19/2015 14:32:12</publishTime>
+    </File>
+    <File Include="images/Porsche/porsche002.jpg">
+      <publishTime>10/19/2015 14:47:07</publishTime>
+    </File>
+    <File Include="images/Porsche/porsche003.jpg">
+      <publishTime>10/19/2015 14:47:31</publishTime>
+    </File>
+    <File Include="images/Porsche/porsche004.jpg">
+      <publishTime>10/19/2015 14:47:51</publishTime>
+    </File>
+    <File Include="images/Porsche/porsche0040.jpg">
+      <publishTime>10/19/2015 15:04:21</publishTime>
+    </File>
+    <File Include="images/Porsche/porsche005.jpg">
+      <publishTime>10/19/2015 14:48:31</publishTime>
+    </File>
+    <File Include="images/Porsche/porsche006.jpg">
+      <publishTime>10/19/2015 14:48:15</publishTime>
+    </File>
+    <File Include="images/Porsche/porsche007.jpg">
+      <publishTime>10/19/2015 14:48:52</publishTime>
+    </File>
+    <File Include="images/Porsche/porsche008.jpg">
+      <publishTime>10/19/2015 15:00:59</publishTime>
+    </File>
+    <File Include="images/Porsche/porsche009.jpg">
+      <publishTime>10/19/2015 15:01:33</publishTime>
+    </File>
+    <File Include="images/Porsche/porsche010.jpg">
+      <publishTime>10/19/2015 15:02:10</publishTime>
+    </File>
+    <File Include="images/Porsche/porsche011.jpg">
+      <publishTime>10/19/2015 15:03:32</publishTime>
+    </File>
+    <File Include="images/Porsche/porsche012.jpg">
+      <publishTime>10/19/2015 15:03:41</publishTime>
+    </File>
+    <File Include="images/porsche0012.jpg">
+      <publishTime>10/25/2015 00:09:43</publishTime>
+    </File>
+    <File Include="images/porsche0015.jpg">
+      <publishTime>10/25/2015 00:11:22</publishTime>
+    </File>
+    <File Include="images/pre_next_btn.psd">
+      <publishTime>10/25/2015 01:16:08</publishTime>
+    </File>
+    <File Include="images/right_icon.png">
+      <publishTime>04/05/2016 16:18:23</publishTime>
+    </File>
+    <File Include="images/school_pic/porsche002.jpg">
+      <publishTime>03/15/2016 18:08:49</publishTime>
+    </File>
+    <File Include="images/school_pic/porsche004.jpg">
+      <publishTime>03/15/2016 18:04:12</publishTime>
+    </File>
+    <File Include="images/select_right.png">
+      <publishTime>04/11/2016 00:31:20</publishTime>
+    </File>
+    <File Include="images/serve0011.jpg">
+      <publishTime>10/25/2015 00:07:15</publishTime>
+    </File>
+    <File Include="images/serve01.jpg">
+      <publishTime>10/13/2015 00:18:52</publishTime>
+    </File>
+    <File Include="images/shortcutlogo01.png">
+      <publishTime>10/12/2015 21:04:00</publishTime>
+    </File>
+    <File Include="images/shortcutlogo02-24.ico">
+      <publishTime>10/12/2015 22:39:20</publishTime>
+    </File>
+    <File Include="images/test00.jpg">
+      <publishTime>05/13/2016 21:06:24</publishTime>
+    </File>
+    <File Include="images/test01.jpg">
+      <publishTime>05/13/2016 17:58:20</publishTime>
+    </File>
+    <File Include="images/test02.jpg">
+      <publishTime>05/13/2016 17:58:37</publishTime>
+    </File>
+    <File Include="images/top_button.png">
+      <publishTime>10/17/2015 00:15:09</publishTime>
+    </File>
+    <File Include="images/_notes/appdown_bg.jpg.mno">
+      <publishTime>10/19/2015 17:39:47</publishTime>
+    </File>
+    <File Include="images/未标题-1.psd">
+      <publishTime>10/14/2015 01:18:45</publishTime>
+    </File>
+    <File Include="images/红色杂色.png">
+      <publishTime>10/18/2015 17:50:11</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>05/23/2016 00:19:47</publishTime>
+    </File>
+    <File Include="js/addgoods.js">
+      <publishTime>05/11/2016 01:23:05</publishTime>
+    </File>
+    <File Include="js/allGoods_view.js">
+      <publishTime>05/21/2016 00:43:52</publishTime>
+    </File>
+    <File Include="js/bktotop.js">
+      <publishTime>10/23/2015 20:18:03</publishTime>
+    </File>
+    <File Include="js/index.js">
+      <publishTime>03/18/2016 17:48:28</publishTime>
+    </File>
+    <File Include="js/jquery-1.7.1.min.js">
+      <publishTime>10/17/2015 17:12:15</publishTime>
+    </File>
+    <File Include="js/jquery.form.js">
+      <publishTime>09/03/2014 09:10:13</publishTime>
+    </File>
+    <File Include="js/jquery.lazyload.js">
+      <publishTime>10/22/2015 13:32:01</publishTime>
+    </File>
+    <File Include="js/jquery.md5.js">
+      <publishTime>10/12/2015 20:19:04</publishTime>
+    </File>
+    <File Include="js/jquery.min.1.7.2.js">
+      <publishTime>10/12/2015 20:19:04</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>05/26/2014 15:00:06</publishTime>
+    </File>
+    <File Include="js/jquery.nivo.slider.pack.js">
+      <publishTime>10/24/2015 23:19:13</publishTime>
+    </File>
+    <File Include="js/jquery.smint.js">
+      <publishTime>05/01/2016 23:37:55</publishTime>
+    </File>
+    <File Include="js/magic_star.js">
+      <publishTime>10/20/2015 01:26:48</publishTime>
+    </File>
+    <File Include="js/user_login.js">
+      <publishTime>10/12/2015 20:19:04</publishTime>
+    </File>
+    <File Include="just/dialog-sandra.css">
+      <publishTime>10/20/2015 23:46:13</publishTime>
+    </File>
+    <File Include="just/dialog.css">
+      <publishTime>10/22/2015 00:40:37</publishTime>
+    </File>
+    <File Include="just/dialogFx.js">
+      <publishTime>10/22/2015 13:42:36</publishTime>
+    </File>
+    <File Include="just/showdialog.js">
+      <publishTime>10/22/2015 00:21:25</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/07/2016 22:08:30</publishTime>
+    </File>
+    <File Include="singleGoods-page.aspx">
+      <publishTime>05/20/2016 23:44:29</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/24/2016 00:34:58</publishTime>
+    </File>
+    <File Include="web/add_goods.aspx">
+      <publishTime>05/19/2016 00:11:16</publishTime>
+    </File>
+    <File Include="web/all_goods.aspx">
+      <publishTime>05/14/2016 00:39:58</publishTime>
+    </File>
+    <File Include="web/Case1_page.html">
+      <publishTime>03/19/2016 21:53:30</publishTime>
+    </File>
+    <File Include="web/Case_page.html">
+      <publishTime>03/19/2016 21:53:20</publishTime>
+    </File>
+    <File Include="web/ContactUs_page.html">
+      <publishTime>03/19/2016 23:25:37</publishTime>
+    </File>
+    <File Include="web/css/admin_index_css.css">
+      <publishTime>05/09/2016 00:58:28</publishTime>
+    </File>
+    <File Include="web/css/container.css">
+      <publishTime>04/27/2016 21:42:58</publishTime>
+    </File>
+    <File Include="web/css/nivo-slider.css">
+      <publishTime>10/14/2015 01:11:39</publishTime>
+    </File>
+    <File Include="web/css/sidebar.css">
+      <publishTime>05/07/2016 13:20:45</publishTime>
+    </File>
+    <File Include="web/css/sign_up.css">
+      <publishTime>12/02/2015 10:15:07</publishTime>
+    </File>
+    <File Include="web/css/web_demo_about_us.css">
+      <publishTime>05/02/2016 17:51:43</publishTime>
+    </File>
+    <File Include="web/delete_goods.aspx">
+      <publishTime>05/10/2016 23:02:54</publishTime>
+    </File>
+    <File Include="web/fonts/BebasNeue-webfont.ttf">
+      <publishTime>10/23/2015 21:13:38</publishTime>
+    </File>
+    <File Include="web/forgotpassword_page.html">
+      <publishTime>04/12/2016 23:28:40</publishTime>
+    </File>
+    <File Include="web/home_page.aspx">
+      <publishTime>05/04/2016 23:38:32</publishTime>
+    </File>
+    <File Include="web/images/1.jpg">
+      <publishTime>03/14/2016 22:59:56</publishTime>
+    </File>
+    <File Include="web/images/2.jpg">
+      <publishTime>03/14/2016 22:59:47</publishTime>
+    </File>
+    <File Include="web/images/3.jpg">
+      <publishTime>03/14/2016 22:59:49</publishTime>
+    </File>
+    <File Include="web/images/appdown_bg002.png">
+      <publishTime>10/19/2015 19:00:13</publishTime>
+    </File>
+    <File Include="web/images/downloadbtn001.png">
+      <publishTime>10/19/2015 19:04:24</publishTime>
+    </File>
+    <File Include="web/images/facebook.png">
+      <publishTime>03/14/2016 23:21:40</publishTime>
+    </File>
+    <File Include="web/images/logo00.png">
+      <publishTime>03/19/2016 21:31:42</publishTime>
+    </File>
+    <File Include="web/images/porsche003.jpg">
+      <publishTime>10/19/2015 14:47:31</publishTime>
+    </File>
+    <File Include="web/images/porsche005.jpg">
+      <publishTime>10/19/2015 14:48:31</publishTime>
+    </File>
+    <File Include="web/images/porsche009.jpg">
+      <publishTime>10/19/2015 15:01:33</publishTime>
+    </File>
+    <File Include="web/images/porsche011.jpg">
+      <publishTime>10/19/2015 15:03:32</publishTime>
+    </File>
+    <File Include="web/images/porsche012.jpg">
+      <publishTime>10/19/2015 15:03:41</publishTime>
+    </File>
+    <File Include="web/images/progress.gif">
+      <publishTime>03/15/2016 00:30:36</publishTime>
+    </File>
+    <File Include="web/images/school_pic00001.png">
+      <publishTime>05/02/2016 16:57:04</publishTime>
+    </File>
+    <File Include="web/images/school_pic01.png">
+      <publishTime>05/02/2016 17:16:50</publishTime>
+    </File>
+    <File Include="web/images/stripes.png">
+      <publishTime>05/03/2016 00:38:40</publishTime>
+    </File>
+    <File Include="web/images/top_button.png">
+      <publishTime>10/17/2015 00:15:09</publishTime>
+    </File>
+    <File Include="web/images/twitter.png">
+      <publishTime>03/14/2016 23:21:46</publishTime>
+    </File>
+    <File Include="web/index_about_us.aspx">
+      <publishTime>04/27/2016 21:53:47</publishTime>
+    </File>
+    <File Include="web/Information_page.html">
+      <publishTime>03/19/2016 21:53:44</publishTime>
+    </File>
+    <File Include="web/JoinUs_page.html">
+      <publishTime>03/19/2016 21:53:55</publishTime>
+    </File>
+    <File Include="web/js/about_us.js">
+      <publishTime>10/22/2015 21:48:13</publishTime>
+    </File>
+    <File Include="web/js/admin_index_js.js">
+      <publishTime>05/09/2016 01:18:19</publishTime>
+    </File>
+    <File Include="web/js/bktotop.js">
+      <publishTime>10/23/2015 20:17:33</publishTime>
+    </File>
+    <File Include="web/js/classie.js">
+      <publishTime>05/06/2016 14:41:03</publishTime>
+    </File>
+    <File Include="web/js/jquery-1.8.3.min.js">
+      <publishTime>10/23/2015 00:00:35</publishTime>
+    </File>
+    <File Include="web/js/jquery.min.js">
+      <publishTime>05/06/2016 14:39:48</publishTime>
+    </File>
+    <File Include="web/js/jquery.smint.js">
+      <publishTime>10/23/2015 15:47:49</publishTime>
+    </File>
+    <File Include="web/js/magic_star.js">
+      <publishTime>10/20/2015 01:26:48</publishTime>
+    </File>
+    <File Include="web/js/scripts.js">
+      <publishTime>03/14/2016 22:54:51</publishTime>
+    </File>
+    <File Include="web/js/snap.svg-min.js">
+      <publishTime>05/06/2016 14:10:06</publishTime>
+    </File>
+    <File Include="web/js/supersized-init%28vs%29.js">
+      <publishTime>03/15/2016 00:51:11</publishTime>
+    </File>
+    <File Include="web/js/supersized-init.js">
+      <publishTime>03/15/2016 01:37:11</publishTime>
+    </File>
+    <File Include="web/js/supersized.3.2.7.min.js">
+      <publishTime>03/14/2016 23:15:39</publishTime>
+    </File>
+    <File Include="web/js/textAjax.js">
+      <publishTime>05/09/2016 00:58:04</publishTime>
+    </File>
+    <File Include="web/js/TileHeadPic.js">
+      <publishTime>04/27/2016 21:02:55</publishTime>
+    </File>
+    <File Include="web/LegalExplanation_page.html">
+      <publishTime>03/19/2016 21:54:02</publishTime>
+    </File>
+    <File Include="web/search_allgoods.aspx">
+      <publishTime>05/15/2016 00:33:20</publishTime>
+    </File>
+    <File Include="web/search_goods.aspx">
+      <publishTime>05/11/2016 00:47:08</publishTime>
+    </File>
+    <File Include="web/Team1_page.html">
+      <publishTime>03/19/2016 21:54:12</publishTime>
+    </File>
+    <File Include="web/Team2_page.html">
+      <publishTime>03/19/2016 21:54:20</publishTime>
+    </File>
+    <File Include="web/Team_page.html">
+      <publishTime>05/02/2016 17:49:03</publishTime>
+    </File>
+    <File Include="web/users_manage.aspx">
+      <publishTime>05/11/2016 01:30:39</publishTime>
+    </File>
+    <File Include="web/welcome_page.html">
+      <publishTime>05/06/2016 17:22:32</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

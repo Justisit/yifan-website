@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>翼帆-代理分布</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="hebei,河北工程大学,自主研发产品,河北工程大学师生自主研发产品,www.hebeu.edu.cn,河北邯郸，师生自主研发产品代理" />
+<meta name="description" content="河北省邯郸市河北工程大学师生自主研发产品展示网站,自主研发产品展示、联系、销售、报价,为您提供最新、最全的科技信息，提供最优质的服务。最新科研产品展示销售报价信息尽在翼帆" />
+
+<link rel="stylesheet" type="text/css" href="source/c_map.css">
+<link rel="stylesheet" type="text/css" href="source/bmap.css">
+
+<script type="text/javascript" src="source/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=22541213b022f4b56c7b7d195c9b0bf9"></script>
+<script type="text/javascript" src="source/SearchInfoWindow_min.js"></script>
+</head>
+<body>
+<div id="contact-container">
+	<div id="map" style="overflow: hidden; position: relative; z-index: 0; color: rgb(0, 0, 0); text-align: left; background-color: rgb(243, 241, 236);">
+		<div style="overflow: visible; position: absolute; z-index: 0; left: 0px; top: 0px; cursor: url(http://api0.map.bdimg.com/images/openhand.cur) 8 8, default;">
+			<div class="BMap_mask" style="position: absolute; left: 0px; top: 0px; z-index: 9; overflow: hidden; -webkit-user-select: none; width: 1357px; height: 500px;">
+			</div>
+			<div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;">
+				<div style="position: absolute; height: 0px; width: auto; left: 0px; top: 0px; z-index: 800;">
+					<div class="BMapLib_SearchInfoWindow" id="BMapLib_SearchInfoWindow0" style="width: 310px; -webkit-user-select: none; bottom: -69px; left: 395px;">
+						<div class="BMapLib_bubble_top">
+							<div class="BMapLib_bubble_title" id="BMapLib_bubble_title0">
+								河北总部
+							</div>
+							<div class="BMapLib_bubble_tools">
+								<div class="BMapLib_bubble_close" title="关闭" id="BMapLib_bubble_close0">
+								</div>
+							
+							</div>
+						</div>
+						<div class="BMapLib_bubble_center">
+							<div class="BMapLib_bubble_content" id="BMapLib_bubble_content0">
+								<div style="line-height:24px;">
+									地址：河北省邯郸市邯山区光明南大街199号河北工程大学弘德苑5层<br>
+                                    邮件：hello@ctou.cn<br>
+                                    电话：1234567890<br>
+                                    传真：1234567890<br>
+                                    邮编：056001<br>
+									乘车路线：<a href="GetTheWay.pdf" target="_blank">点击查看乘车路线</a>
+								</div>
+							</div>
+							<div class="BMapLib_nav" id="BMapLib_nav0" style="display: none;">
+								<ul class="BMapLib_nav_tab" id="BMapLib_nav_tab0">
+									<li class="BMapLib_first BMapLib_current" id="BMapLib_tab_search0" style="display:block;"><span class="BMapLib_icon BMapLib_icon_nbs"></span>在附近找</li>
+									<li class="" id="BMapLib_tab_tohere0" style="display:block;"><span class="BMapLib_icon BMapLib_icon_tohere"></span>到这里去</li>
+									<li class="" id="BMapLib_tab_fromhere0" style="display:block;"><span class="BMapLib_icon BMapLib_icon_fromhere"></span>从这里出发</li>
+								</ul>
+								<ul class="BMapLib_nav_tab_content">
+									<li id="BMapLib_searchBox0">
+									<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+									<tbody>
+									<tr>
+										<td style="padding-left:8px;">
+											<input id="BMapLib_search_text0" class="BMapLib_search_text" type="text" maxlength="100" autocomplete="off">
+										</td>
+										<td width="55" style="padding-left:7px;">
+											<input id="BMapLib_search_nb_btn0" type="submit" value="搜索" class="iw_bt">
+										</td>
+									</tr>
+									</tbody>
+									</table>
+									</li>
+									<li id="BMapLib_transBox0" style="display:none">
+									<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+									<tbody>
+									<tr>
+										<td width="30" style="padding-left:8px;">
+											<div id="BMapLib_stationText0">
+												起点
+											</div>
+										</td>
+										<td>
+											<input id="BMapLib_trans_text0" class="BMapLib_trans_text" type="text" maxlength="100" autocomplete="off">
+										</td>
+										<td width="106" style="padding-left:7px;">
+											<input id="BMapLib_search_bus_btn0" type="button" value="公交" class="iw_bt" style="margin-right:5px;"><input id="BMapLib_search_drive_btn0" type="button" class="iw_bt" value="驾车">
+										</td>
+									</tr>
+									</tbody>
+									</table>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="BMapLib_bubble_bottom">
+						</div>
+						<img src="source/iw_tail.png" alt="" name="BMapLib_trans0" width="58" height="31" class="BMapLib_trans" id="BMapLib_trans0" style="left: 125px; top: 206px;">
+					</div>
+				</div>
+				<div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 700;">
+					<span class="BMap_Marker BMap_noprint" unselectable="on" "="" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 19px; height: 25px; left: 513px; top: 101px; z-index: -7992858; background: url(http://api0.map.bdimg.com/images/blank.gif);" title=""></span>
+				</div>
+				<div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 600;">
+				</div>
+				<div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 500;">
+					<label class="BMapLabel" unselectable="on" style="position: absolute; display: none; cursor: inherit; border: 1px solid rgb(190, 190, 190); padding: 1px; white-space: nowrap; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-family: arial, sans-serif; z-index: -20000; color: rgb(190, 190, 190); background-color: rgb(190, 190, 190);">shadow</label>
+				</div>
+				<div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 400;">
+					<span class="BMap_Marker" unselectable="on" style="position: absolute; padding: 0px; margin: 0px; border: 0px; width: 0px; height: 0px; left: 513px; top: 101px; z-index: -7992858;">
+					<div style="position: absolute; margin: 0px; padding: 0px; width: 19px; height: 25px; overflow: hidden; left: 0px; top: -15px;">
+						<img src="source/marker_red_sprite.png" style="display: block; border:none;margin-left:0px; margin-top:0px; ">
+					</div>
+					</span>
+				</div>
+				<div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 300;">
+					<span unselectable="on" style="position: absolute; padding: 0px; margin: 0px; border: 0px; width: 20px; height: 11px; left: 517px; top: 115px;">
+					<div style="position: absolute; margin: 0px; padding: 0px; width: 20px; height: 11px; overflow: hidden; left: 11px; top: -11px;">
+						<img src="source/marker_red_sprite.png" style="display: block; border:none;margin-left:-19px; margin-top:-13px; ">
+					</div>
+					</span>
+				</div>
+				<div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 201;">
+				</div>
+				<div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;">
+				</div>
+			</div>
+			<div style="position: absolute; overflow: visible; top: 0px; left: 0px; z-index: 1;">
+				<div style="position: absolute; overflow: visible; z-index: -100; left: 679px; top: 250px; display: block; -webkit-transform: translate3d(0px, 0px, 0px);">
+				</div>
+			</div>
+			<div style="position: absolute; overflow: visible; top: 0px; left: 0px; z-index: 2; display: none; visibility: hidden;">
+				<div style="position: absolute; overflow: visible; top: 0px; left: 0px; z-index: 0; display: none;">
+				</div>
+			</div>
+			<div style="position: absolute; overflow: visible; top: 0px; left: 0px; z-index: 3;">
+			</div>
+		</div>
+		<div class="pano_close" title="退出全景" style="z-index: 1201; display: none;">
+		</div>
+		<a class="pano_pc_indoor_exit" title="退出室内景" style="z-index: 1201; display: none;"><span style="float:right;margin-right:12px;">出口</span></a>
+		<div class=" anchorbl" style="height: 32px; position: absolute; z-index: 30; bottom: 0px; right: auto; top: auto; left: 1px;">
+			<a title="到百度地图查看此区域" target="_blank" href="http://map.baidu.com/?sr=1" style="outline: none;"><img style="border:none;width:77px;height:32px" src="source/copyright_logo.png"></a>
+		</div>
+		<div id="zoomer" style="position: absolute; z-index: 0; top: 161.5px; left: 217px; overflow: hidden; visibility: hidden; cursor: url(http://api0.map.bdimg.com/images/openhand.cur) 8 8, default; width: 120px; height: 91px;">
+			<div class="BMap_zoomer" style="top: 0px; left: 0px; background-position: 0px 0px;">
+			</div>
+			<div class="BMap_zoomer" style="top: 0px; right: 0px; background-position: -7px 0px;">
+			</div>
+			<div class="BMap_zoomer" style="bottom: 0px; left: 0px; background-position: 0px -7px;">
+			</div>
+			<div class="BMap_zoomer" style="bottom: 0px; right: 0px; background-position: -7px -7px;">
+			</div>
+		</div>
+		<div unselectable="on" class=" bmap_stdmpctrl bmap_stdmptype0 bmap_noprint anchortl" style="width: 62px; height: 192px; bottom: auto; right: auto; top: 10px; left: 10px; position: absolute; z-index: 1100;">
+			<div class="BMap_stdMpPan" style="background-position: 0px 0px;">
+				<div class="BMap_button BMap_panN" title="向上平移">
+				</div>
+				<div class="BMap_button BMap_panW" title="向左平移">
+				</div>
+				<div class="BMap_button BMap_panE" title="向右平移">
+				</div>
+				<div class="BMap_button BMap_panS" title="向下平移">
+				</div>
+				<div class="BMap_stdMpPanBg BMap_smcbg">
+				</div>
+			</div>
+			<div class="BMap_stdMpZoom" style="height: 147px; width: 62px;">
+				<div class="BMap_button BMap_stdMpZoomIn" title="放大一级" style="background-position: 0px -221px;">
+					<div class="BMap_smcbg">
+					</div>
+				</div>
+				<div class="BMap_button BMap_stdMpZoomOut" title="缩小一级" style="top: 126px;">
+					<div class="BMap_smcbg">
+					</div>
+				</div>
+				<div class="BMap_stdMpSlider" style="height: 108px;">
+					<div class="BMap_stdMpSliderBgTop" style="height: 108px;">
+						<div class="BMap_smcbg">
+						</div>
+					</div>
+					<div class="BMap_stdMpSliderBgBot" style="top: 55px; height: 57px;">
+					</div>
+					<div class="BMap_stdMpSliderMask" title="放置到此级别">
+					</div>
+					<div class="BMap_stdMpSliderBar" title="拖动缩放" style="cursor: url(http://api0.map.bdimg.com/images/openhand.cur) 8 8, default; top: 55px;">
+						<div class="BMap_smcbg">
+						</div>
+					</div>
+				</div>
+				<div class="BMap_zlHolder">
+					<div class="BMap_zlSt">
+						<div class="BMap_smcbg">
+						</div>
+					</div>
+					<div class="BMap_zlCity">
+						<div class="BMap_smcbg">
+						</div>
+					</div>
+					<div class="BMap_zlProv">
+						<div class="BMap_smcbg">
+						</div>
+					</div>
+					<div class="BMap_zlCountry">
+						<div class="BMap_smcbg">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="BMap_stdMpGeolocation" style="position: initial; display: none; margin-top: 43px; margin-left: 10px;">
+				<div class="BMap_geolocationContainer" style="position: initial; width: 24px; height: 24px; overflow: hidden; margin: 0px; box-sizing: border-box;">
+					<div class="BMap_geolocationIconBackground" style="width: 24px; height: 24px; background-image: url(http://api0.map.bdimg.com/images/navigation-control/geolocation-control/pc/bg-20x20.png); background-size: 20px 20px; background-position: 3px 3px; background-repeat: no-repeat;">
+						<div class="BMap_geolocationIcon" style="position: initial; width: 24px; height: 24px; cursor: pointer; background-image: url(&#39;http://api0.map.bdimg.com/images/navigation-control/geolocation-control/pc/success-10x10.png&#39;); background-size: 10px 10px; background-repeat: no-repeat; background-position: center;">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div unselectable="on" class=" bmap_scalectrl bmap_noprint anchorbl" style="bottom: 18px; right: auto; top: auto; left: 81px; width: 110px; position: absolute; z-index: 10;">
+			<div class="BMap_scaleTxt" unselectable="on" style="color: black; background-color: transparent;">
+				20&nbsp;公里
+			</div>
+			<div class="BMap_scaleBar BMap_scaleHBar" style="background-color: black;">
+				<img style="border:none" src="source/mapctrls.png">
+			</div>
+			<div class="BMap_scaleBar BMap_scaleLBar" style="background-color: black;">
+				<img style="border:none" src="source/mapctrls.png">
+			</div>
+			<div class="BMap_scaleBar BMap_scaleRBar" style="background-color: black;">
+				<img style="border:none" src="source/mapctrls.png">
+			</div>
+		</div>
+		<div unselectable="on" class=" bmap_cpyctrl bmap_noprint anchorbl" style="cursor: default; white-space: nowrap; color: black; font-style: normal; font-variant: normal; font-weight: normal; font-size: 11px; line-height: 15px; font-family: arial, sans-serif; bottom: 2px; right: auto; top: auto; left: 81px; position: absolute; z-index: 10; background: none;">
+			<span _cid="1" style="display: inline;"><span style="font-size:11px">© 2015 Baidu&nbsp;- Data © <a target="_blank" href="http://www.navinfo.com/" style="display:inline;">NavInfo</a> &amp; <a target="_blank" href="http://www.cennavi.com.cn/" style="display:inline;">CenNavi</a> &amp; <a target="_blank" href="http://www.365ditu.com/" style="display:inline;">道道通</a></span></span>
+		</div>
+	</div>
+	<div id="button-div">
+		<span onclick="initBMap(0);" class="selected">河北</span>
+		<span onclick="initBMap(1);">北京</span>
+		<span onclick="initBMap(2);">上海</span>
+		<span onclick="initBMap(3);">河南</span>
+	</div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.ag-header ul li:eq(5)').addClass('current-page');
+        initBMap(0);
+        if (window.location.href.indexOf('direct=contact') >= 0) {
+            $('html,body').animate({ 'scrollTop': $('#contact-container').offset().top - 120 }, { duration: 2000, easing: 'easeInOutCirc' });
+        } else if (window.location.href.indexOf('direct=join') >= 0) {
+            $('html,body').animate({ 'scrollTop': $('.ag-content-about-join').offset().top - 120 }, { duration: 2000, easing: 'easeInOutCirc' });
+        }
+    });
+    function fileChange(target) {
+        fileExtTag = true;
+        fileSizeTag = true;
+        var path = target.value;
+        var index = target.value.lastIndexOf('\\');
+        var str = path.substring(index + 1);
+        $('#dummy').val(str);
+        var strExt = str.substring(str.lastIndexOf('.') + 1);
+        if((strExt != 'pdf') && (strExt != 'doc') && (strExt != 'docx') && (strExt != 'txt') && (strExt != 'htm') && (strExt != 'html')) {
+            fileExtTag = false;
+        }
+        if ("ActiveXObject" in window) {
+            return;
+        } else {
+            if (target.files[0].size >= 4194304) {
+                fileSizeTag = false;
+            }
+        }
+    }
+    function initBMap(para) {
+        var map = new BMap.Map("map");
+        $('#button-div span').removeClass('selected');
+        $('#button-div span').eq(para).addClass('selected');
+        if (para == 0) {
+            var point = new BMap.Point(114.508641,36.578277);
+            var c_poi = new BMap.Point(114.508641,36.578277);
+            var content = '<div style="line-height:24px;">' +
+                          '地址：河北省邯郸市邯山区光明南大街199号河北工程大学弘德苑5层<br/>' +
+                          '邮件：hello@ctou.cn<br/>' +
+                          '电话：0310-1234567<br/>' +
+                          '传真：0310-1234567<br/>' +
+                          '邮编：056001<br/>' +
+                          '乘车路线：<a href="GetTheWay.pdf" target="_blank">点击查看乘车路线</a>' +
+                          '</div>';
+        } else if (para == 1) {
+            var point = new BMap.Point(116.323066,39.989956);
+            var c_poi = new BMap.Point(116.323066,39.989956);
+            var content = '<div style="line-height:24px;">' +
+                          '地址：北京市<br/>' +
+                          '邮件：hello@ctou.cn<br/>' +
+                          '电话：+86-010-12345678<br/>' +
+                          '传真：+86-010-12345678<br/>' +
+                          '邮编：100000' +
+                          '</div>';
+        } else if (para == 2) {
+            var point = new BMap.Point(121.506725,31.243065);
+            var c_poi = new BMap.Point(121.506725,31.243065);
+            var content = '<div style="line-height:24px;">' +
+                          '地址：上海市<br/>' +
+                          '邮件：hello@ctou.cn<br/>' +
+                          '电话：+86-021-12345678<br/>' +
+                          '传真：+86-021-12345678<br/>' +
+                          '邮编：200000' +
+                          '</div>';
+        } else if (para == 3) {
+            var point = new BMap.Point(113.785563,34.765237);
+            var c_poi = new BMap.Point(113.785563,34.765237);
+            var content = '<div style="line-height:24px;">' +
+                          '地址：河南省郑州市<br/>' +
+                          '邮件：hello@ctou.cn<br/>' +
+                          '电话：+86-0371-1234567<br/>' +
+                          '传真：+86-0371-1234567<br/>' +
+                          '邮编：450000' +
+                          '</div>';
+        }
+        map.centerAndZoom(c_poi, 16);
+        //向地图中添加缩放控件
+        var ctrl_nav = new BMap.NavigationControl({ anchor: BMAP_ANCHOR_TOP_LEFT, type: BMAP_NAVIGATION_CONTROL_LARGE });
+        map.addControl(ctrl_nav);
+        //向地图中添加比例尺控件
+        var ctrl_sca = new BMap.ScaleControl({ anchor: BMAP_ANCHOR_BOTTOM_LEFT });
+        map.addControl(ctrl_sca);
+        //设置提示框
+        var searchInfoWindow = null;
+        searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+            title: para == 0 ? '河北总部' : (para == 1 ? '北京分公司' : (para == 2 ? '上海分公司' : (para == 3 ? '河南分公司' : ''))),
+            width: 300,
+            enableAutoPan: true,
+            searchTypes: []
+        });
+        //设置标注
+        var marker = new BMap.Marker(point);
+        marker.addEventListener("click", function (e) {
+            searchInfoWindow.open(marker);
+        });
+        map.addOverlay(marker);
+        marker.setAnimation(BMAP_ANIMATION_BOUNCE);
+        searchInfoWindow.open(marker);
+    }
+</script>
+</body></html>

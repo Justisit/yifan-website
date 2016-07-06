@@ -1,0 +1,138 @@
+.dialog,
+.dialog__overlay {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.dialog {
+	position: fixed;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.dialog__overlay {
+	position: absolute;
+	z-index: 1;
+	background: rgba(55, 58, 71, 0.9);
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	-webkit-backface-visibility: hidden;
+}
+
+.dialog--open .dialog__overlay {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.dialog__content {
+	max-width: 1060px;
+	min-width: 1000px;
+	height:500px;
+	background: #fff;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+	opacity: 0;
+}
+
+.dialog--open .dialog__content {
+	pointer-events: auto;
+}
+
+/* Content */
+.dialog h2 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 2em;
+	padding: 0 0 0.2em;
+	margin: 0;
+}
+
+/*============ ============*/
+/*======  demo  css  ======*/
+/*============ ============*/
+
+
+
+button {
+	padding: 1em 2em;
+	margin-top:0px;
+	outline: none;
+	font-weight: 600;
+	border: none;
+	color: #fff;
+	background: #c94e50;
+}
+
+.content {
+	max-width: 1060px;
+	padding: 0 1em;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.button-wrap {
+	padding: 2.5em 0 0;
+	font-size: 1.25em;
+}
+
+button.trigger {
+	background: #c94e50;
+	color: #fff;
+	border: none;
+}
+
+
+/*     */
+.title_h {
+	padding: 2.75em 0 3em;
+	letter-spacing: -1px;
+}
+
+.title_h h1 {
+	font-size: 3.65em;
+	line-height: 1;
+	color:#F66;
+	margin: 0;
+}
+
+.title_h h1 span {
+	display: block;
+	width: 15em;
+	font-size: 21%;
+	padding: 1em 0;
+	margin: 0 auto;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: relative;
+}
+
+.title_h h1 span::before,
+.title_h h1 span::after {
+	content: '';
+	position: absolute;
+	width: 25%;
+	height: 2px;
+	top: 50%;
+	margin-top: -1px;
+	background: #c94e50;
+}
+
+.title_h h1 span::before {
+	right: 100%;
+}
+
+.title_h h1 span::after {
+	left: 100%;
+}
+

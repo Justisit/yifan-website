@@ -1,0 +1,17 @@
+F:\myyifan\yifan\yifan\bin\yifan.dll.config
+F:\myyifan\yifan\yifan\bin\yifan.dll
+F:\myyifan\yifan\yifan\bin\yifan.pdb
+F:\myyifan\yifan\yifan\bin\Newtonsoft.Json.dll
+F:\myyifan\yifan\yifan\bin\System.Net.Http.Formatting.dll
+F:\myyifan\yifan\yifan\bin\System.Web.Http.dll
+F:\myyifan\yifan\yifan\bin\System.Web.Http.WebHost.dll
+F:\myyifan\yifan\yifan\bin\Newtonsoft.Json.xml
+F:\myyifan\yifan\yifan\bin\System.Net.Http.Formatting.xml
+F:\myyifan\yifan\yifan\bin\System.Web.Http.xml
+F:\myyifan\yifan\yifan\bin\System.Web.Http.WebHost.xml
+F:\myyifan\yifan\yifan\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\myyifan\yifan\yifan\bin\zh-Hans\System.Web.Http.resources.dll
+F:\myyifan\yifan\yifan\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\myyifan\yifan\yifan\obj\Debug\yifan.dll
+F:\myyifan\yifan\yifan\obj\Debug\yifan.pdb
+F:\myyifan\yifan\yifan\obj\Debug\yifan.csprojResolveAssemblyReference.cache

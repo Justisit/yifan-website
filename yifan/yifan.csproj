@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5FDB97A0-5A80-494B-B786-46BBD0FB0045}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>yifan</RootNamespace>
+    <AssemblyName>yifan</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.0.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.0.0\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.0.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin_home.aspx" />
+    <Content Include="admin_index.aspx" />
+    <Content Include="admin_signin_from.aspx" />
+    <Content Include="allGoods-page.aspx" />
+    <Content Include="BMap\GetTheWay.pdf" />
+    <Content Include="css\adminsigninformstyle.css" />
+    <Content Include="css\adminsigninformreset.css" />
+    <Content Include="css\admin_home.css" />
+    <Content Include="css\admin_home_page.css" />
+    <Content Include="css\admin_search.css" />
+    <Content Include="css\allGoods_view.css" />
+    <Content Include="css\singleGoods.css" />
+    <Content Include="Handler1.ashx" />
+    <Content Include="images\close_icon.png" />
+    <Content Include="images\mainNav_bg.png" />
+    <Content Include="images\right_icon.png" />
+    <Content Include="images\select_right.png" />
+    <Content Include="images\test00.jpg" />
+    <Content Include="images\test01.jpg" />
+    <Content Include="images\test02.jpg" />
+    <Content Include="js\addgoods.js" />
+    <Content Include="js\allGoods_view.js" />
+    <Content Include="js\index.js" />
+    <Content Include="js\jquery.form.js" />
+    <Content Include="singleGoods-page.aspx" />
+    <Content Include="web\add_goods.aspx" />
+    <Content Include="web\all_goods.aspx" />
+    <Content Include="web\Case1_page.html" />
+    <Content Include="web\ContactUs_page.html" />
+    <Content Include="web\Case_page.html" />
+    <Content Include="web\css\admin_index_css.css" />
+    <Content Include="web\css\search-result.css" />
+    <Content Include="web\css\sidebar.css" />
+    <Content Include="web\delete_goods.aspx" />
+    <Content Include="web\forgotpassword_page.html" />
+    <Content Include="web\home_page.aspx" />
+    <Content Include="web\images\png_mid.png" />
+    <Content Include="web\images\school_pic00001.png" />
+    <Content Include="web\images\school_pic01.png" />
+    <Content Include="web\images\stripes.png" />
+    <Content Include="web\index_about_us.aspx" />
+    <Content Include="web\Information_page.html" />
+    <Content Include="web\JoinUs_page.html" />
+    <Content Include="web\js\testAjax.js" />
+    <Content Include="web\js\admin_index_js.js" />
+    <Content Include="web\js\classie.js" />
+    <Content Include="web\js\snap.svg-min.js" />
+    <Content Include="web\search-result.aspx" />
+    <Content Include="web\search_allgoods.aspx" />
+    <Content Include="web\search_goods.aspx" />
+    <Content Include="web\Team2_page.html" />
+    <Content Include="web\Team1_page.html" />
+    <Content Include="web\LegalExplanation_page.html" />
+    <Content Include="web\Team_page.html" />
+    <Content Include="web\todayNew.aspx" />
+    <Content Include="web\users_manage.aspx" />
+    <Content Include="web\welcome_page.html" />
+    <None Include="BMap\source\getscript" />
+    <Content Include="css\demo.css" />
+    <Content Include="css\index_goods.css" />
+    <Content Include="css\menu.css" />
+    <Content Include="css\mycontainer_css.css" />
+    <Content Include="css\nivo-slider.css" />
+    <Content Include="all_goods_view.aspx" />
+    <Content Include="images\ban_next.png" />
+    <Content Include="images\ban_pre.png" />
+    <Content Include="images\dreaming.jpg" />
+    <Content Include="images\fordream.png" />
+    <Content Include="images\png_mid.png" />
+    <Content Include="images\school_pic\porsche002.jpg" />
+    <Content Include="images\school_pic\porsche004.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="web\css\container.css" />
+    <Content Include="web\css\sign_up.css" />
+    <Content Include="web\css\web_demo_about_us.css" />
+    <Content Include="web\css\nivo-slider.css" />
+    <Content Include="web\images\1.jpg" />
+    <Content Include="web\images\2.jpg" />
+    <Content Include="web\images\3.jpg" />
+    <Content Include="web\images\appdown_bg002.png" />
+    <Content Include="web\images\downloadbtn001.png" />
+    <Content Include="web\images\facebook.png" />
+    <Content Include="web\images\logo00.png" />
+    <Content Include="web\images\porsche003.jpg" />
+    <Content Include="web\images\porsche005.jpg" />
+    <Content Include="web\images\porsche009.jpg" />
+    <Content Include="web\images\porsche011.jpg" />
+    <Content Include="web\images\porsche012.jpg" />
+    <Content Include="web\images\progress.gif" />
+    <Content Include="web\images\top_button.png" />
+    <Content Include="web\images\twitter.png" />
+    <Content Include="web\js\about_us.js" />
+    <Content Include="web\js\bktotop.js" />
+    <Content Include="web\js\jquery-1.8.3.min.js" />
+    <Content Include="web\js\jquery.min.js" />
+    <Content Include="web\js\jquery.smint.js" />
+    <Content Include="web\js\magic_star.js" />
+    <Content Include="web\js\scripts.js" />
+    <Content Include="web\js\supersized-init%28vs%29.js" />
+    <Content Include="web\js\supersized-init.js" />
+    <Content Include="web\js\supersized.3.2.7.min.js" />
+    <Content Include="web\js\TileHeadPic.js" />
+    <Content Include="font\cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff" />
+    <Content Include="font\DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff" />
+    <Content Include="font\Glide.js-master.zip" />
+    <Content Include="font\k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff" />
+    <Content Include="font\nivo-slider.rar" />
+    <Content Include="images\appdown_bg.psd" />
+    <Content Include="images\downloadbtn001.psd" />
+    <Content Include="images\logo00.psd" />
+    <Content Include="images\onepiece\ACE.psd" />
+    <Content Include="images\onepiece\ACE002.psd" />
+    <Content Include="images\onepiece\Going Merry.psd" />
+    <Content Include="images\onepiece\inthesunshine.psd" />
+    <Content Include="images\onepiece\memory forGoing Merry.psd" />
+    <Content Include="images\onepiece\onepiece_colorful.psd" />
+    <Content Include="images\onepiece\partners01.psd" />
+    <Content Include="images\onepiece\partners02.psd" />
+    <Content Include="images\onepiece\team001.psd" />
+    <Content Include="images\onepiece\TEAM002.psd" />
+    <Content Include="images\onepiece\team01.psd" />
+    <Content Include="images\onepiece\together forever.psd" />
+    <Content Include="images\onepiece\We are partners.psd" />
+    <Content Include="images\onepiece\We are team.psd" />
+    <Content Include="images\onepiece\weareateam.psd" />
+    <Content Include="images\onepiece\weareone.psd" />
+    <Content Include="images\pre_next_btn.psd" />
+    <Content Include="images\_notes\appdown_bg.jpg.mno" />
+    <Content Include="images\未标题-1.psd" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="packages.config" />
+    <Content Include="Handler.ashx" />
+    <None Include="Properties\PublishProfiles\11111.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="web\fonts\BebasNeue-webfont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BMap\BMap.htm" />
+    <Content Include="BMap\source\bmap.css" />
+    <Content Include="BMap\source\copyright_logo.png" />
+    <Content Include="BMap\source\c_map.css" />
+    <Content Include="BMap\source\iw_tail.png" />
+    <Content Include="BMap\source\jquery-1.10.2.min.js" />
+    <Content Include="BMap\source\mapctrls.png" />
+    <Content Include="BMap\source\marker_red_sprite.png" />
+    <Content Include="BMap\source\SearchInfoWindow_min.js" />
+    <Content Include="images\001.png" />
+    <Content Include="images\1x1.png" />
+    <Content Include="images\ad1.jpg" />
+    <Content Include="images\ad2.jpg" />
+    <Content Include="images\ad22.jpg" />
+    <Content Include="images\ad3.jpg" />
+    <Content Include="images\ad31.jpg" />
+    <Content Include="images\ad4.jpg" />
+    <Content Include="images\androidlogo.png" />
+    <Content Include="images\appdown_bg.jpg" />
+    <Content Include="images\appdown_bg001.png" />
+    <Content Include="images\appdown_bg002.png" />
+    <Content Include="images\applelogo.png" />
+    <Content Include="images\arrows.png" />
+    <Content Include="images\bullets.png" />
+    <Content Include="images\bullets0.png" />
+    <Content Include="images\downloadbtn001.png" />
+    <Content Include="images\hover_left.png" />
+    <Content Include="images\hover_right.png" />
+    <Content Include="images\img_2.jpg" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\logo00.png" />
+    <Content Include="images\onepiece\ACE.png" />
+    <Content Include="images\onepiece\ACE002.png" />
+    <Content Include="images\onepiece\Going Merry.png" />
+    <Content Include="images\onepiece\inthesunshine.png" />
+    <Content Include="images\onepiece\memory forGoing Merry.png" />
+    <Content Include="images\onepiece\onepiece_colorful.png" />
+    <Content Include="images\onepiece\one_piece001.png" />
+    <Content Include="images\onepiece\partners01.png" />
+    <Content Include="images\onepiece\partners02.png" />
+    <Content Include="images\onepiece\team001.png" />
+    <Content Include="images\onepiece\TEAM002.png" />
+    <Content Include="images\onepiece\team01.png" />
+    <Content Include="images\onepiece\together forever.png" />
+    <Content Include="images\onepiece\We are partners.png" />
+    <Content Include="images\onepiece\We are team001.png" />
+    <Content Include="images\onepiece\weareateam.png" />
+    <Content Include="images\onepiece\weareone001.png" />
+    <Content Include="images\porsche0012.jpg" />
+    <Content Include="images\porsche0015.jpg" />
+    <Content Include="images\Porsche\porsche001.jpg" />
+    <Content Include="images\Porsche\porsche002.jpg" />
+    <Content Include="images\Porsche\porsche003.jpg" />
+    <Content Include="images\Porsche\porsche004.jpg" />
+    <Content Include="images\Porsche\porsche0040.jpg" />
+    <Content Include="images\Porsche\porsche005.jpg" />
+    <Content Include="images\Porsche\porsche006.jpg" />
+    <Content Include="images\Porsche\porsche007.jpg" />
+    <Content Include="images\Porsche\porsche008.jpg" />
+    <Content Include="images\Porsche\porsche009.jpg" />
+    <Content Include="images\Porsche\porsche010.jpg" />
+    <Content Include="images\Porsche\porsche011.jpg" />
+    <Content Include="images\Porsche\porsche012.jpg" />
+    <Content Include="images\serve0011.jpg" />
+    <Content Include="images\serve01.jpg" />
+    <Content Include="images\shortcutlogo01.png" />
+    <Content Include="images\shortcutlogo02-24.ico" />
+    <Content Include="images\top_button.png" />
+    <Content Include="images\红色杂色.png" />
+    <Content Include="js\bktotop.js" />
+    <Content Include="js\jquery-1.7.1.min.js" />
+    <Content Include="js\jquery.lazyload.js" />
+    <Content Include="js\jquery.md5.js" />
+    <Content Include="js\jquery.min.1.7.2.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.nivo.slider.pack.js" />
+    <Content Include="js\jquery.smint.js" />
+    <Content Include="js\magic_star.js" />
+    <Content Include="js\user_login.js" />
+    <Content Include="just\dialog-sandra.css" />
+    <Content Include="just\dialog.css" />
+    <Content Include="just\dialogFx.js" />
+    <Content Include="just\showdialog.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin_home.aspx.cs">
+      <DependentUpon>admin_home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_home.aspx.designer.cs">
+      <DependentUpon>admin_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_index.aspx.cs">
+      <DependentUpon>admin_index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_index.aspx.designer.cs">
+      <DependentUpon>admin_index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_signin_from.aspx.cs">
+      <DependentUpon>admin_signin_from.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_signin_from.aspx.designer.cs">
+      <DependentUpon>admin_signin_from.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="allGoods-page.aspx.cs">
+      <DependentUpon>allGoods-page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="allGoods-page.aspx.designer.cs">
+      <DependentUpon>allGoods-page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="all_goods_view.aspx.cs">
+      <DependentUpon>all_goods_view.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="all_goods_view.aspx.designer.cs">
+      <DependentUpon>all_goods_view.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler.ashx.cs">
+      <DependentUpon>Handler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler1.ashx.cs">
+      <DependentUpon>Handler1.ashx</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="singleGoods-page.aspx.cs">
+      <DependentUpon>singleGoods-page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="singleGoods-page.aspx.designer.cs">
+      <DependentUpon>singleGoods-page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sqlHelper.cs" />
+    <Compile Include="web\add_goods.aspx.cs">
+      <DependentUpon>add_goods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\add_goods.aspx.designer.cs">
+      <DependentUpon>add_goods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\all_goods.aspx.cs">
+      <DependentUpon>all_goods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\all_goods.aspx.designer.cs">
+      <DependentUpon>all_goods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\delete_goods.aspx.cs">
+      <DependentUpon>delete_goods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\delete_goods.aspx.designer.cs">
+      <DependentUpon>delete_goods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\home_page.aspx.cs">
+      <DependentUpon>home_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\home_page.aspx.designer.cs">
+      <DependentUpon>home_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\index_about_us.aspx.cs">
+      <DependentUpon>index_about_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\index_about_us.aspx.designer.cs">
+      <DependentUpon>index_about_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\search-result.aspx.cs">
+      <DependentUpon>search-result.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\search-result.aspx.designer.cs">
+      <DependentUpon>search-result.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\search_allgoods.aspx.cs">
+      <DependentUpon>search_allgoods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\search_allgoods.aspx.designer.cs">
+      <DependentUpon>search_allgoods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\search_goods.aspx.cs">
+      <DependentUpon>search_goods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\search_goods.aspx.designer.cs">
+      <DependentUpon>search_goods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\todayNew.aspx.cs">
+      <DependentUpon>todayNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\todayNew.aspx.designer.cs">
+      <DependentUpon>todayNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="web\users_manage.aspx.cs">
+      <DependentUpon>users_manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\users_manage.aspx.designer.cs">
+      <DependentUpon>users_manage.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="upload\images_goods\" />
+    <Folder Include="upload\images_slidePic\" />
+    <Folder Include="upload\images_touxiang\" />
+    <Folder Include="upload\images_users\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6227</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:6227/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
